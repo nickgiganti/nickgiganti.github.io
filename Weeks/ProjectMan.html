@@ -23,7 +23,7 @@ body {font-size:16px;}
   <div class="w3-bar-block">
       <a href="#" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Home</a>
 
-    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white"></a>
+    <a href="#services" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">About me Page</a>
 <!DOCTYPE html>
 <html>
 <head>
@@ -70,7 +70,7 @@ body {font-size:16px;}
 <div class="dropdown">
   <button class="dropbtn">Weekily Assignments</button>
   <div class="dropdown-content">
-    <a href="#">01: Project Management</a>
+    <a href="Weeks/ProjectMan.html">01: Project Management</a>
     <a href="#">02: Computer Aided Design</a>
     <a href="#">03: Addicitve Manufactoring</a>
     <a href="#">04: Computer Aided Manufacturing</a>
@@ -92,7 +92,9 @@ body {font-size:16px;}
 
 
 
+    <a href="#designers" onclick="w3_close()" class="w3-bar-item w3-button w3-hover-white">Contact</a>
 
+  </div>
 </nav>
 
 <!-- Top menu on small screens -->
@@ -109,13 +111,13 @@ body {font-size:16px;}
 
   <!-- Header -->
   <div class="w3-container" style="margin-top:80px" id="showcase">
-    <h1 class="w3-jumbo"><b>Intro To Digital Fabrication 2020-2021</b></h1>
-</head>
+    <h1 class="w3-jumbo"><b>Project Management</b></h1>
+
+      </head>
 
     <body>
 
-<img src="Wheaton.jpeg" alt="Wheaton College" width="750" height="400">
-
+<
 
 
 
@@ -128,18 +130,46 @@ body {font-size:16px;}
 
   <!-- Services -->
   <div class="w3-container" id="services" style="margin-top:75px">
-    <h1 class="w3-xxxlarge w3-text-red"><b>Week 1.</b></h1>
+    <h1 class="w3-xxxlarge w3-text-red"><b>Proect 1</b></h1>
     <hr style="width:50px;border:5px solid red" class="w3-round">
-    <p> </p>
+    <p> Hi my name is Nick Giganti. I am from Long Island, New York and I attend Wheaton College In Massachuetts. My goal in the future is to become a doctor. I thought this class could be benefical to me because of how important technology is becoming in the medical field. This is seen as doctors are beginning to 3D print different organs and limbs to help patients, which I think is incredible. I think it is amazing technology is allowing the medical field to help patients in many different ways.</p>
 
 
    <p> I have very little expierence in the technology field, but I am so excited to get to learn. I hope you all enjoy the website and my projects</p>
-
-    -Nick Giganti       <img src="soccer.jpeg" alt="Soccer" :picture width="300" height="400"
-
+  </div>
 
 
+
+
+
+<!-- End page content -->
+
+
+<!-- W3.CSS Container -->
+<div class="w3-light-grey w3-container w3-padding-32" style="margin-top:75px;padding-right:58px"><p class="w3-right">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-opacity">w3.css</a></p></div>
+
+<script>
+// Script to open and close sidebar
+function w3_open() {
+  document.getElementById("mySidebar").style.display = "block";
+  document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+  document.getElementById("mySidebar").style.display = "none";
+  document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+</script>
 
 </body>
 </html>
+
 
